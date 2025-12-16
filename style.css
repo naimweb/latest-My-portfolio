@@ -3,11 +3,17 @@
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
+            
         }
-
-        body {
-            background-color: #f5f5f5;
-        }
+         body {
+            margin:0;
+            background-color:black;
+            color:white;
+         }
+       .dark {
+        background-color: white;
+        color:black;
+       }
 
         .layout {
 
@@ -24,9 +30,9 @@
           
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            padding:10px 5px;
             box-shadow: 0 0 10px rgba(100, 100, 255, 0.35);
-            background: #fff;
+            background:rgba(0, 0, 0, 0.726);
             position: relative;
         }
 
@@ -41,7 +47,8 @@
 
         nav a {
             text-decoration: none;
-            color: blue;
+            color:white;
+            font-size: 25px;
         }
 
         .moon {
@@ -131,10 +138,10 @@
         }
 
         .About-section .about {
-            background-color: white;
             padding: 30px 20px;
+            font-weight: bold;
             max-width: 900px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+           
             border-radius: 20px;
             line-height: 1.8;
             font-family: Arial, Helvetica, sans-serif;
