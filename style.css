@@ -406,7 +406,10 @@
             }  /*end skill design */
 
 
-            /* project section */
+
+
+
+            /* project section design start */
 
 
             .project-head {
@@ -417,12 +420,12 @@
             }
 
             .project-container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+               box-shadow: rgba(16, 9, 217, 0.35) 0px 5px 15px;
                 width: 70%;
+                padding: 10px;
                 margin: auto;
                 margin-left: 15%;
+                border-radius: 20px;
                 text-align: start;
                 padding-bottom: 10px;
                 color:white;
@@ -471,7 +474,7 @@
             padding: 5px 10px 5px 10px;
             border-radius: 10px 20px;
 
-           }  /*end skill section design */
+           }  /*end  Project section design */
         
       
    
