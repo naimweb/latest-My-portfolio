@@ -22,6 +22,17 @@ window.addEventListener("DOMContentLoaded",() => {
   }
 });
 
+// skill section interval 
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".skillbar").forEach(function (skillbar) {
+        const bar = skillbar.querySelector(".skillbar-bar");
+        const percent = skillbar.getAttribute("data-percent");
+
+        bar.style.transition = "width 3s ease";
+        bar.style.width = percent;
+    });
+});
+
 
 
 // foote year text 
