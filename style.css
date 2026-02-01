@@ -405,6 +405,74 @@
             --center-6: #ffe160;
             }  /*end skill design */
 
+
+            /* project section */
+
+
+            .project-head {
+                text-align: center;
+                font-weight: bold;
+                font-size: 27px;
+                margin-bottom: 9%;
+            }
+
+            .project-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 70%;
+                margin: auto;
+                margin-left: 15%;
+                text-align: start;
+                padding-bottom: 10px;
+                color:white;
+                
+            }
+            .row-section {
+              display: grid;
+                grid-template-columns: repeat(2, 2fr);
+                gap: 30px;
+
+            }
+           
+            .description {
+                background-color:#0B0D11;
+                border-radius: 20px;
+            }
+
+            .img-group {
+                width: 100%;
+               
+            }
+            .img-group img {
+                width: 100%;
+                min-height: 200px;
+             
+         }
+           .project-heading {
+           padding-left: 10px;
+           margin-bottom: 20px;
+            width:90%;
+            margin-top: 20px;
+            
+           }
+           .project-heading h1 {
+            font-weight: bold !important;
+            margin-bottom: 9px;
+           }
+
+           .project-technology {
+            display: flex;
+            gap:20px;
+            padding:10px;
+           }
+           .lang {
+            border: 1px solid rgb(9, 215, 77);
+            padding: 5px 10px 5px 10px;
+            border-radius: 10px 20px;
+
+           }  /*end skill section design */
+        
       
    
         .contact-section {
@@ -559,34 +627,6 @@
         transform: none;
         box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     }
-
-   
-    .my-skills {
-        margin: 40px 10px;
-    }
-
-    .my-skills h1 {
-        font-size: 26px;
-        margin-bottom: 20px;
-    }
-
-    .skills {
-        gap: 15px;
-    }
-
-    .card {
-        font-size: 20px;
-        padding: 14px 18px;
-        border-radius: 15px;
-        background: linear-gradient(135deg, #2bcee7, #4b9be6);
-        color: #fff;
-    }
-
-    .card:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-    }
-
     
     .contact-section {
         padding: 30px 15px;
