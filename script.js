@@ -22,3 +22,13 @@ window.addEventListener("DOMContentLoaded",() => {
   }
 });
 
+
+
+// foote year text 
+    const date = new Date();
+    const year = date.getFullYear();
+    document.getElementById("year").innerHTML=year
+    // end
+
+
+
