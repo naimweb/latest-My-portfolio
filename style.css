@@ -966,7 +966,12 @@ button:hover {
   
  
    
-}
+/* first link tag hover simple */
+
+
+
+
+
 
 /* ================= GLOBAL RESPONSIVE FIX ================= */
 img{
@@ -1087,4 +1092,11 @@ body{
   .foter-icon{
     justify-content:center;
   }
+}
+}
+
+.icon a:hover {
+    color: red !important;
+     animation: bounce 1s ease;
+
 }
