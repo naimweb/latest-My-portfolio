@@ -7,15 +7,17 @@
         }
          body {
             margin:0;
-            background-color:black;
+           
             color:white;
-            background: radial-gradient(circle at top, #1545a5, #020409);
+            background: radial-gradient(circle at top, #113d94, #020409);
+            
 
          }
        .dark {
         background-color: white;
         color:black;
        }
+      
 
         .layout {
 
@@ -964,4 +966,125 @@ button:hover {
   
  
    
+}
+
+/* ================= GLOBAL RESPONSIVE FIX ================= */
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/* prevent horizontal scroll */
+body{
+  overflow-x:hidden;
+}
+
+/* ================= NAVBAR ================= */
+@media (max-width:768px){
+  nav{
+    flex-direction:column;
+    gap:10px;
+  }
+  nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+  }
+  nav a{
+    font-size:18px;
+  }
+  .moon,.logu{
+    position:static;
+  }
+}
+
+/* ================= PROFILE ================= */
+@media (max-width:768px){
+  .profile-section{
+    flex-direction:column;
+    text-align:center;
+  }
+  .profile-text{
+    max-width:100%;
+  }
+}
+
+/* ================= SKILL ================= */
+@media (max-width:992px){
+  .container-skillbar{
+    width:95%;
+    padding:20px;
+  }
+}
+@media (max-width:600px){
+  .skillbar{
+    height:26px;
+  }
+  .skillbar-bar{
+    height:26px;
+  }
+  .skillbar-title{
+    width:90px;
+    font-size:11px;
+  }
+}
+
+/* ================= PROJECT (FIXED) ================= */
+@media (max-width:1200px){
+  .project-container{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+@media (max-width:900px){
+  .row-section{
+    grid-template-columns:1fr;
+  }
+  .project-heading{
+    width:100%;
+  }
+  .project-technology{
+    flex-wrap:wrap;
+    gap:10px;
+  }
+}
+
+/* ================= CLIENT (FIXED) ================= */
+@media (max-width:1024px){
+  .client-container{
+    grid-template-columns:repeat(2,1fr);
+    margin-right:0;
+  }
+}
+@media (max-width:600px){
+  .client-container{
+    grid-template-columns:1fr;
+  }
+  .image{
+    width:50%;
+  }
+}
+
+/* ================= CONTACT ================= */
+@media (max-width:900px){
+  .contact-grid{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+  form{
+    padding:25px;
+  }
+}
+
+/* ================= FOOTER ================= */
+@media (max-width:768px){
+  .foter-content{
+    flex-direction:column;
+    gap:20px;
+    text-align:center;
+  }
+  .foter-icon{
+    justify-content:center;
+  }
 }
