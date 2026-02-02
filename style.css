@@ -9,6 +9,8 @@
             margin:0;
             background-color:black;
             color:white;
+            background: radial-gradient(circle at top, #1545a5, #020409);
+
          }
        .dark {
         background-color: white;
@@ -104,13 +106,14 @@
         }
 
         .pdf {
-            border: 1px solid rgba(17, 17, 243, 0.6);
+            background-color:#00E5E5 !important;
             padding: 10px 60px;
-            background: transparent;
+           
             border-radius: 6px;
-            font-size: 16px;
+            font-weight: bold;
+            font-size: 20px;    
             cursor: pointer;
-            color: blue;
+            color:white;
             margin-top: 15px;
         }
 
