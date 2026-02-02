@@ -38,7 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
 // foote year text 
     const date = new Date();
     const year = date.getFullYear();
-    document.getElementById("year").innerHTML=year
+    const out =  document.querySelector(".dateYear")
+    out.innerHTML=year
+    out.style.color="red";
+   
     // end
 
 
