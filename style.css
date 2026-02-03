@@ -132,7 +132,7 @@ body.dark-mode .navbar {
 
   .dif-icon {
     display: flex;
-     gap:400px
+     gap:100px
     
 
   }
@@ -141,13 +141,13 @@ body.dark-mode .navbar {
     display:block;
     position:absolute;
     top:18px;
-    right:20px; 
+    right:90px; 
     z-index:1000;
   }
 
   .nav-links{
     position:absolute;
-   
+    
     top:65px;
     left:0;
     width:100%;
