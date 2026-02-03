@@ -109,25 +109,6 @@ body.dark-mode .navbar {
   border-bottom: 2px solid #06b6d4;
 }
 
-/* Connect Button */
-.connect-btn {
-  text-decoration: none;
-  color: white;
-  padding: 8px 22px;
-  border-radius: 8px;
-  font-weight: 500;
-  background: linear-gradient(135deg, #3b318d 0%, #1e1b4b 100%);
-  border: 1px solid #4f46e5;
-  transition: 0.3s;
-}
-
-.connect-btn:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
-        
-      
-
         .layout {
 
             position:sticky;
