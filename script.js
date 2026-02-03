@@ -28,6 +28,21 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// toogle btn 
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-links a").forEach(link=>{
+  link.addEventListener("click",()=>{
+    navLinks.classList.remove("active");
+  });
+});
+
+
 
 // skill section interval 
 document.addEventListener("DOMContentLoaded", function () {

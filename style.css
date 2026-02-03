@@ -109,6 +109,63 @@ body.dark-mode .navbar {
   border-bottom: 2px solid #06b6d4;
 }
 
+
+/* phone toogle btn */
+  /* toggle icon default */
+.menu-toggle{
+  display:none;
+  font-size:26px;
+  cursor:pointer;
+  color:white;
+}
+.dif-icon {
+  display: flex;
+  gap:30px;
+}
+
+/* mobile only */
+@media (max-width:768px){
+
+  nav{
+    position:relative;
+  }
+
+  .dif-icon {
+    display: flex;
+     gap:400px
+    
+
+  }
+
+  .menu-toggle{
+    display:block;
+    position:absolute;
+    top:18px;
+    right:20px; 
+    z-index:1000;
+  }
+
+  .nav-links{
+    position:absolute;
+   
+    top:65px;
+    left:0;
+    width:100%;
+    background:#0a0c14;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    padding:25px 0;
+    display:none;
+  }
+
+  .nav-links.active{
+    display:flex;
+  }
+}
+
+
+
         .layout {
 
             position:sticky;
