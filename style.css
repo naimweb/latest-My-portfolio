@@ -743,8 +743,9 @@ body.dark-mode .navbar {
 .contact-grid .card h3 {
     margin-bottom: 20%;
 }
- .info-f p{
-  color:blue !important;
+ .personal{
+  font-size: 40px;
+  color: blue !important;
  }
 
  .contact-info {
@@ -756,7 +757,7 @@ body.dark-mode .navbar {
   margin-bottom: 20px;
  }
  .form-group {
-  color: white;
+  
   right: 20px;
  
  }
