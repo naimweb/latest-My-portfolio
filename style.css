@@ -744,7 +744,7 @@ body.dark-mode .navbar {
     margin-bottom: 20%;
 }
  .personal{
-  font-size: 40px;
+  font-size: 16px;
   color: blue !important;
  }
 
@@ -757,7 +757,7 @@ body.dark-mode .navbar {
   margin-bottom: 20px;
  }
  .form-group {
-  
+   color: white !important;
   right: 20px;
  
  }
