@@ -698,14 +698,17 @@ body.dark-mode .navbar {
 /* ===== Header ===== */
 .section-header {
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 13 px;
+  margin-top: 10%;
+
 
 }
 
 .section-header small {
   color: #22f0ff;
+  font-weight: bold;
   letter-spacing: 4px;
-  font-size: 12px;
+  font-size: 17px;
 }
 
 .section-header h2 {
@@ -720,8 +723,9 @@ body.dark-mode .navbar {
 .section-header p {
   max-width: 600px;
   margin: auto;
-  color: #8aa0c8;
+  
   line-height: 1.6;
+ 
    margin-bottom: 40px;
 }
 
@@ -739,11 +743,23 @@ body.dark-mode .navbar {
 .contact-grid .card h3 {
     margin-bottom: 20%;
 }
+ .info-f p{
+  color:blue !important
+ }
 
-.card1 h3 {
-    margin-bottom: 30px;
+ .contact-info {
+  margin-top: 20px;
+ }
 
-}
+ .send {
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ .form-group {
+  color: white;
+  right: 20px;
+ 
+ }
 
 /*end contact section */
    
@@ -752,8 +768,6 @@ body.dark-mode .navbar {
 .foter {
     border-top: 2px solid black;
     margin-top: 10%;
-   
-
     
 }
 
@@ -790,6 +804,7 @@ body.dark-mode .navbar {
     display: flex;
     justify-content: center;
      margin-top:30px;
+     margin-bottom: 20px;
 }
 
 
@@ -1051,6 +1066,7 @@ button:hover {
     .contact-section {
         padding: 30px 15px;
         margin: 25px 10px;
+        
         border-radius: 12px;
         background: white;
         box-shadow: 0 6px 20px rgba(0,0,0,0.08);
