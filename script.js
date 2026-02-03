@@ -1,26 +1,33 @@
 const mood = document.getElementById("moon");
-mood.addEventListener("click",() => {
-  document.body.classList.toggle("dark")
-  if(document.body.classList.contains("dark")) {
-    localStorage.setItem("theme", "dark")
-    mood.innerHTML=`<i class="fa-regular fa-sun"></i>`
-  }
-  else {
-    mood.innerHTML=`<i class="fa-solid fa-moon"></i>`
-    localStorage.setItem("theme","light")
-  }
-})
 
-window.addEventListener("DOMContentLoaded",() => {
-  const seved = localStorage.getItem("theme")
-  if(seved === "dark") {
-    document.body.classList.add("dark")
-     mood.innerHTML=`<i class="fa-regular fa-sun"></i>`
-  }
-  else {
-    mood.innerHTML=`<i class="fa-solid fa-moon"></i>`
+/* Toggle theme on click */
+mood.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+    mood.innerHTML = `<i class="fa-regular fa-sun"></i>`;
+  } else {
+    localStorage.setItem("theme", "light");
+    mood.innerHTML = `<i class="fa-solid fa-moon"></i>`;
   }
 });
+
+/* Load saved theme on refresh */
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark");
+    mood.innerHTML = `<i class="fa-regular fa-sun"></i>`;
+  } else {
+    document.body.classList.remove("dark");
+    mood.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+  }
+});
+
 
 // skill section interval 
 document.addEventListener("DOMContentLoaded", function () {
@@ -43,6 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
     out.style.color="red";
    
     // end
+
+
+    
 
 
 
